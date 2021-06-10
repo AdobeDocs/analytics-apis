@@ -38,7 +38,7 @@ Adobe Experience Cloud Admin Console includes product profile controls. Product 
 
 The Data Repair API permission is located under the Adobe Analytics Report Suite Tools permission group.
 
-![data repair permission](images/data-repair-permission.png)
+![data repair permission](../../../images/data-repair-permission.png)
  
 For more information on creating profiles and managing permissions, see [Manage Products and Profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) and [Manage Permissions and Roles](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html).
  

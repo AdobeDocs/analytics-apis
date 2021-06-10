@@ -26,7 +26,7 @@ You can also refer to the video tutorials:
 1.  In the **TYPE** dropdown, select **OAuth 2.0**.
 1.  Click the **Get New Access Token** button.
 
-    ![configure Postman request 1](../assets/configure-Postman-request1.png)
+    ![configure Postman request 1](../../images/configure-Postman-request1.png)
 
 1.  On the **GET NEW ACCESS TOKEN** form, provide the following values:
 
@@ -42,13 +42,13 @@ You can also refer to the video tutorials:
     | Scope                 | Enter `openid,AdobeID,read_organizations,additional_info.projectedProductContext,additional_info.job_function` |
     | Client Authentication | Select **Send client credentials in body** from the dropdown |
 
-    ![Postman Oauth Step 3](../assets/postman-oauth2-step3.png)
+    ![Postman Oauth Step 3](../../images/postman-oauth2-step3.png)
 
 1.  Click **Request Token**. You will be prompted to login. Click the **Use Token** button at the bottom of the resulting pop up screen. The token automatically populates the **Available Token** field.
 
 1. Enter the request URI path you want to call, including your Global Company ID as shown below, and then click the **Preview Request** button. This updates the request header with the token value.
 
-    ![Postman Oauth Step 4](../assets/postman-oauth2-step4.png)
+    ![Postman Oauth Step 4](../../images/postman-oauth2-step4.png)
 
     *If you have already requested other tokens in Postman, you can select them from the **Available Tokens** dropdown.*
 
@@ -58,6 +58,6 @@ You can also refer to the video tutorials:
 
 1. On the next row, add the header KEY `x-api-key` and enter your Client ID as the value.
 
-    ![Postman Oauth Step 5](../assets/postman-oauth2-step5.png)
+    ![Postman Oauth Step 5](../../images/postman-oauth2-step5.png)
 
 1. Click the **Send** button. The `GET`/users response includes the first 10 users for your Analytics company. You are now also authorized to work with other Analytics endpoints.
