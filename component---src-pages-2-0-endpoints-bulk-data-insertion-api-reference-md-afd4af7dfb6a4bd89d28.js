@@ -1,2 +1,0 @@
-(self.webpackChunkanalytics_apis=self.webpackChunkanalytics_apis||[]).push([[8508],{5016:function(n,t,e){"use strict";e.r(t),e.d(t,{_frontmatter:function(){return u},default:function(){return p}});var o=e(2122),a=e(9756),r=(e(5007),e(4983)),s=e(9536),u={},c={_frontmatter:u},i=s.Z;function p(n){var t=n.components,e=(0,a.Z)(n,["components"]);return(0,r.mdx)(i,(0,o.Z)({},c,e,{components:t,mdxType:"MDXLayout"}))}p.isMDXComponent=!0}}]);
-//# sourceMappingURL=component---src-pages-2-0-endpoints-bulk-data-insertion-api-reference-md-afd4af7dfb6a4bd89d28.js.map
