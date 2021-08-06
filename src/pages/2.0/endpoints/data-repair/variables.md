@@ -270,7 +270,7 @@ Each API call that creates a job or requests server call estimates requires a JS
         "evar1": {
             "action": "set", 
             "setValue": "new value", 
-            "filters": {
+            "filter": {
                 "condition": "isEmpty"
             }
         }
@@ -287,7 +287,7 @@ Each API call that creates a job or requests server call estimates requires a JS
     "variables": {
         "evar1": {
             "action": "delete",
-            "filters": {
+            "filter": {
                 "condition": "contains",
                 "matchValue": "@"
             }
@@ -305,7 +305,7 @@ Each API call that creates a job or requests server call estimates requires a JS
     "variables": {
         "evar1": {
             "action": "delete",
-            "filters": {
+            "filter": {
                 "condition": "startsWith",
                 "matchValue": "XYZ"
             }
@@ -323,7 +323,7 @@ Each API call that creates a job or requests server call estimates requires a JS
     "variables": {
         "evar1": {
             "action": "delete",
-            "filters": {
+            "filter": {
                 "condition": "endsWith",
                 "matchValue": "XYZ"
             }
@@ -341,7 +341,7 @@ Each API call that creates a job or requests server call estimates requires a JS
     "variables": {
         "evar1": {
             "action": "delete",
-            "filters": {
+            "filter": {
                 "condition": "isURL"
             }
         }
@@ -358,7 +358,7 @@ Each API call that creates a job or requests server call estimates requires a JS
     "variables": {
         "evar1": {
             "action": "delete",
-            "filters": {
+            "filter": {
                 "condition": "isNotURL"
             }
         }
